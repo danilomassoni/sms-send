@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Hello WebSocket</title>
+    <title>Notification SMS - DamaTech</title>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="/main.css" rel="stylesheet">
@@ -12,23 +12,22 @@
 </head>
 <body class="text-center">
 
-<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
-    enabled. Please enable
+<noscript><h2 style="color: #ff0000">Problem with your Browser! Please enable
     Javascript and reload this page!</h2></noscript>
 <div id="main-content" class="container border mt-5" >
-        <div class="col-md-6">
+        <div class="col-sm-6">
 
 <form class="form-signin" id ="smsForm"  method="post">
-    <div class="form-group">
+    <div class="form-group" >
 
-        <h2 class="mb-4">Send an SMS from Spring Boot Application</h2>
+        <h2 class="mb-4">Send a SMS</h2>
         <h2 class="mb-4">
             <input type="text" placeholder="Enter the number"  id="to" />
         </h2>
-        <h2><textarea id="message" >Text message</textarea></h2>
+        <h2><textarea id="message" placeholder="Write your message" ></textarea></h2>
     </div>
     <p> <button id="send" class="btn btn-lg btn-primary btn-block" type="submit">Send</button></p>
-    <p class="mt-5 mb-3 text-muted">PixelTice &copy;2020</p>
+    <p class="mt-5 mb-3 text-muted">DamaTech 2023</p>
 
 </form>
 </div>
